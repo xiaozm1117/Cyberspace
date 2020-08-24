@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="/jquery/dist/jquery.min.js"></script>
+
+</head>
+<body>
+   <form  onsubmit="return false">
+		<p>用户名：</p><input type="text" id="name" name="name" onblur="checkname()" onfocus="msg(1)" 
+		placeholder="请输入3-10个以字母开头的字符串"/><label id="namel" style="color:red" ></label></p>
+		<p>用户密码：</p><input type="text" id="password" onblur="checkpassword()" name="password" onfocus="msg(2)"
+		placeholder="请输入3-7个以字母开头的字母与数字组合字符串"/><label id="passwordl" style="color:red"></label></p>
+		<p></P><input type="submit" value="注册" onclick="submit1()"/></p>
+	</form>
+	
+	<script type="text/javascript">
+	   
+
+	function msg(item){
+		if(item==1){$("#namel").text("");}else{
+			$("#passwordl").text("");
+		}
+	}
+		function submit1(){
+			var name=checkname();
+			var password=checkpassword();
+			if(name&&password){
+				$.post("/service/loginRegister/register",$("form").serialize(),function(data){
+					if(data.state==200){alert("注册成功");location.href="/loginRegister/page/login.html";}
+				})
+			}
+		}
+		
+		function checkname(){
+			var name = /^[a-z][0-9a-z]{2,10}$/;
+			var match=name.test($("#name").val());
+			if(!match){
+				$("#namel").text("请输入3-10个以字母开头的字符串");
+				return match;
+			}else{
+			
+			var repeat;
+			$.ajax({
+				type:"POST",
+				url:"/service/loginRegister/checkname",
+				data:{"name":$("#name").val()},
+				async:false,
+				success:function(data){
+				   repeat=false;
+				   if(data.state==200) {
+					  repeat=true; $("#namel").text("名字重复，请输入另一个");}
+				   }
+				 
+			})
+			return !repeat;}
+			
+		}
+		
+		function checkpassword(){
+			var pw = /^[a-z][a-z0-9]{0,}[0-9][0-9a-z]{1,5}$/;
+			var match=pw.test($("#password").val());
+			if(!match){
+				$("#passwordl").text("请输入3-7个以字母开头的字母与数字组合字符串");
+			}
+			return match;
+		}
+		
+		
+		
+	</script>
+	
+    
+</body>
+</html>

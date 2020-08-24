@@ -1,0 +1,50 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: jt-user
+  mvc:
+    view:
+      pathmatch:
+        use-suffix-pattern: false
+        use-registered-suffix-pattern: true
+      contentnegotiation:
+        favor-path-extension: false
+        
+        
+  redis:
+    password:
+    cluster:
+      nodes: 192.168.17.129:7000,192.168.17.129:7002,192.168.17.129:7003,192.168.17.129:7004,192.168.17.129:7005,192.168.17.129:7006,192.168.17.129:7007,192.168.17.129:7008
+      max-redirects: 9
+    lettuce:
+      pool:
+        max-idle: 16
+        max-active: 32
+        min-idle: 8
+        
+        
+  freemarker:
+    cache: false
+    template-loader-path: classpath:/templates/
+    suffix: .html
+    content-type: text/html
+    charset: UTF-8
+    request-context-attribute: request
+    settings:
+      number_format: '0.##'
+      classic_compatible: true
+
+    
+    
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:8761/eureka
+
+logging:
+  level:
+    root: INFO
+    

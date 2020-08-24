@@ -1,0 +1,45 @@
+server:
+  port: 7900
+  
+spring:
+  application:
+    name: jt-user-provider
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/jtdb?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+  redis:
+    password:
+    cluster:
+      nodes: 192.168.17.129:7000,192.168.17.129:7002,192.168.17.129:7003,192.168.17.129:7004,192.168.17.129:7005,192.168.17.129:7006,192.168.17.129:7007,192.168.17.129:7008
+      max-redirects: 9
+    lettuce:
+      pool:
+        max-idle: 16
+        max-active: 32
+        min-idle: 8
+        
+  freemarker:
+    template-loader-path: classpath:/templates/
+    suffix: .ftl
+    content-type: text/html
+    charset: UTF-8
+    settings:
+      number_format: '0.##'
+        
+            
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:8761/eureka
+
+mybatis:
+  mapUnderscoreToCamelCase: true
+  mapperLocations: classpath:mapper/*.xml
+  
+
+logging:
+  level: 
+    cn.jt.mapper: debug
