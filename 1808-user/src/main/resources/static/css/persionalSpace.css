@@ -1,0 +1,40 @@
+@charset="UTF-8";
+
+#dataRangeSpan {
+	display:block;
+	margin:0 1px 0 0;
+	padding:4px 10px;
+	width:80px;
+	text-align:center;
+	display:inline;
+}
+#rangeDiv {
+	position:absolute;
+	display:none;
+	margin:0;
+	padding:0;
+	border:1px solid #d9d9d9;
+	background-color:white;
+	text-align:left;
+	width:80px;
+	padding-left:10px;
+}
+#rangeDiv span {
+	line-height:22px;
+}
+
+.a1 {
+	
+	background-color:rgb(100,50,50);
+	font-size: 50px;
+	font-weight: bold;
+	text-align: left;
+	
+}
+#a2 {
+	
+}
+.a3 {
+	background-color:#FFD700;height:600px;width:1000px;float:left;
+	
+}

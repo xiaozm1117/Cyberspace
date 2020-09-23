@@ -1,7 +1,6 @@
 package cn.jt.service;
 
 import cn.jt.pojo.Admin;
-import cn.jt.pojo.User;
 
 public interface LoginRegisterService {
 
@@ -10,5 +9,7 @@ public interface LoginRegisterService {
 	public String login(Admin admin);
 
 	public void checkname(String username);
+	
+	
 	
 }

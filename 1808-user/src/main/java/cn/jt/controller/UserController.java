@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import cn.jt.feign.UserFeign;
 import cn.jt.pojo.User;
-import cn.jt.tool.Result; 
+import cn.jt.tool.Result;
 
 @Controller
 public class UserController {

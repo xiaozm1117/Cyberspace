@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.aa.mapper.VideoMapper">
+
+	   <select id="getCount" resultType="long">
+	  	  select count(1) from video 
+	  </select>
+	  
+	<insert id="faBu">
+		insert into video
+		(adminId,title,content,type,text,createTime,dianZan,shouCang,pingLun)
+		values
+		(#{adminId},#{title},#{content},#{type},#{text},#{createTime},#{dianZan},#{shouCang},#{pingLun})
+	</insert>
+	<select id="getTextCount" resultType="int">
+		SELECT count(1) FROM video WHERE text is not null
+	</select>
+	
+	
+	<select id="videos" resultType="String">
+		select content from video where adminId=#{adminId} and type='mp4' order by createTime DESC limit #{page},6 
+	</select>
+	
+	<select id="liuLan" resultType="cn.aa.pojo.Video">
+		SELECT * FROM( SELECT *,(@i:=@i+1)s FROM video ,(SELECT(@i:=0))b ORDER BY createTime DESC)a WHERE a.s>=#{number} order by a.s ASC LIMIT #{page},5
+	</select>
+	<select id="videosnumber" resultType="int">
+		SELECT s FROM( SELECT *,(@i:=@i+1)s FROM video ,(SELECT(@i:=0))b ORDER BY createTime DESC)a WHERE a.id=#{startId}
+	</select>
+	
+	
+	
+</mapper>

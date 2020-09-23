@@ -3,14 +3,13 @@
   <groupId>cn.jt</groupId>
   <artifactId>1808-user</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-  <parent>
+
+	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.4.RELEASE</version>
 		<relativePath />
 	</parent>
-	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -18,11 +17,6 @@
 		<spring-cloud.version>Dalston.SR1</spring-cloud.version>
 	</properties>
 	<dependencies>
-	<dependency>
-		<groupId>com.xiao</groupId>
-  <artifactId>common</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  </dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka</artifactId>
@@ -39,56 +33,22 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		
-
-<dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-freemarker</artifactId>
-        </dependency>
-<dependency>
-
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-data-redis</artifactId>
-</dependency>
-
-<!-- Jackson Json处理工具包 -->
-		<dependency>
-    		<groupId>com.fasterxml.jackson.core</groupId>
-    		<artifactId>jackson-databind</artifactId>
-    		<version>2.4.2</version>
-		</dependency>
-		<dependency>
-    <groupId>com.fasterxml.jackson.core</groupId>
-    <artifactId>jackson-core</artifactId>
-    <version>2.9.2</version>
-</dependency>
-
-<dependency>
-    <groupId>com.fasterxml.jackson.core</groupId>
-    <artifactId>jackson-databind</artifactId>
-    <version>2.9.2</version>
-</dependency>
-<dependency>
-    <groupId>com.fasterxml.jackson.core</groupId>
-    <artifactId>jackson-annotations</artifactId>
-    <version>2.9.2</version>
-</dependency>
-		
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>servlet-api</artifactId>
-			<version>2.4</version>
-			<scope>provided</scope>
-		</dependency>
-		
-		
-		<!-- 字符加密、解密 -->
-		<dependency>
-			<groupId>commons-codec</groupId>
-			<artifactId>commons-codec</artifactId>
-			<version>1.9</version>
-		</dependency>
-  
+<!-- 	redis	 -->
+	 <dependency>  
+            <groupId>org.springframework.boot</groupId>  
+            <artifactId>spring-boot-starter-data-redis</artifactId>  
+        </dependency> 
+<!-- 	文件上传 -->
+	 <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>1.4</version>
+        </dependency>	
+      <!--   freemark -->
+        <dependency>
+          <groupId>org.freemarker</groupId>
+          <artifactId>freemarker</artifactId>
+      </dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>

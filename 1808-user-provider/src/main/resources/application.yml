@@ -1,6 +1,5 @@
 server:
-  port: 7900
-  
+  port: 9002  
 spring:
   application:
     name: jt-user-provider

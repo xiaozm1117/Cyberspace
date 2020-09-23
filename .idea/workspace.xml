@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="612d43f5-ad06-4b4e-8e83-970d18beb458" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/1808-user-provider/src/main/cn/jt/controller/LoginRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1808-user/src/main/cn/jt/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/0/d0414e58d0fd001a143e92d3077d7739" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/0/d0414e58d0fd001a143e92d3077d7739" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1/c0ab77ca4ff2001a16a2996c39832327" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1/c0ab77ca4ff2001a16a2996c39832327" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/17/d01c41e3eff3001a1176cca1795fb509" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/17/d01c41e3eff3001a1176cca1795fb509" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1a/a0f772bc45e8001a1453b6f06e92aeee" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1a/a0f772bc45e8001a1453b6f06e92aeee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/35/10b755a0dff3001a1176cca1795fb509" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/35/10b755a0dff3001a1176cca1795fb509" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/3b/405dcdab3ff9001a1279d6f40642cc5d" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/3b/405dcdab3ff9001a1279d6f40642cc5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4/009a0ac4c2f1001a1a0ef04750f3f46a" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4/009a0ac4c2f1001a1a0ef04750f3f46a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/46/006e61344ff2001a16a2996c39832327" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/46/006e61344ff2001a16a2996c39832327" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4b/00e72b71f5f8001a1279d6f40642cc5d" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4b/00e72b71f5f8001a1279d6f40642cc5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4b/e098fdb5eede001a1990a6e5569b2fe1" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4b/e098fdb5eede001a1990a6e5569b2fe1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/5/a0f0a5e0b2f8001a1279d6f40642cc5d" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/5/a0f0a5e0b2f8001a1279d6f40642cc5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/52/c044af26aef8001a1279d6f40642cc5d" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/52/c044af26aef8001a1279d6f40642cc5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/56/8018d958f5f8001a1279d6f40642cc5d" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/56/8018d958f5f8001a1279d6f40642cc5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/57/c05681c5adf8001a1279d6f40642cc5d" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/57/c05681c5adf8001a1279d6f40642cc5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/5c/40c03da7dff3001a1176cca1795fb509" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/5c/40c03da7dff3001a1176cca1795fb509" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/67/f0b2c688aff8001a1279d6f40642cc5d" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/67/f0b2c688aff8001a1279d6f40642cc5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/95/30237de7adf8001a1279d6f40642cc5d" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/95/30237de7adf8001a1279d6f40642cc5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/96/2028db6cdff3001a1176cca1795fb509" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/96/2028db6cdff3001a1176cca1795fb509" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/9c/50326cf1b1f4001a113d9797cdcff994" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/9c/50326cf1b1f4001a113d9797cdcff994" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/9f/a0ba92cad0fd001a143e92d3077d7739" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/9f/a0ba92cad0fd001a143e92d3077d7739" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ac/e0145d09f8f1001a1010e6b377667e58" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ac/e0145d09f8f1001a1010e6b377667e58" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/af/1083d9c3dff3001a1176cca1795fb509" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/af/1083d9c3dff3001a1176cca1795fb509" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ba/60b54f09b1f8001a1279d6f40642cc5d" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ba/60b54f09b1f8001a1279d6f40642cc5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c0/50271221f9f1001a1010e6b377667e58" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c0/50271221f9f1001a1010e6b377667e58" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c0/50c442743ff9001a1279d6f40642cc5d" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c0/50c442743ff9001a1279d6f40642cc5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/cc/a0cea01ef8f1001a1010e6b377667e58" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/cc/a0cea01ef8f1001a1010e6b377667e58" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/cd/4032e5244ff2001a16a2996c39832327" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/cd/4032e5244ff2001a16a2996c39832327" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ce/408d83393ff9001a1279d6f40642cc5d" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ce/408d83393ff9001a1279d6f40642cc5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d1/3032f7d71fe5001a19ba8f44db24d675" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d1/3032f7d71fe5001a19ba8f44db24d675" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d9/0072cb1aaef8001a1279d6f40642cc5d" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d9/0072cb1aaef8001a1279d6f40642cc5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d9/70dde2c50af9001a1279d6f40642cc5d" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d9/70dde2c50af9001a1279d6f40642cc5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e3/2036cfbadff3001a1176cca1795fb509" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e3/2036cfbadff3001a1176cca1795fb509" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e4/b067c45d3ff9001a1279d6f40642cc5d" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e4/b067c45d3ff9001a1279d6f40642cc5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e8/b055f0a0f8f1001a1010e6b377667e58" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e8/b055f0a0f8f1001a1010e6b377667e58" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e8/f0d7a631f9f1001a1010e6b377667e58" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e8/f0d7a631f9f1001a1010e6b377667e58" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e9/e047b01c0cf9001a1279d6f40642cc5d" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e9/e047b01c0cf9001a1279d6f40642cc5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ed/c0eba2a4aef8001a1279d6f40642cc5d" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ed/c0eba2a4aef8001a1279d6f40642cc5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f1/304fbe563ff9001a1279d6f40642cc5d" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f1/304fbe563ff9001a1279d6f40642cc5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f2/a0931d80dff3001a1176cca1795fb509" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f2/a0931d80dff3001a1176cca1795fb509" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ff/902b949eaef8001a1279d6f40642cc5d" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ff/902b949eaef8001a1279d6f40642cc5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/1808-user-provider/.markers.snap" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/1808-user-provider/.markers.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/1808-user/.markers.snap" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/1808-user/.markers.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/jt-user-provider/.markers.snap" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/jt-user-provider/.markers.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/RunAppJtUser.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/RunAppJtUser.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/RunAppJtUserProvider.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/RunAppJtUserProvider.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/1808-user-provider/2020/8/34/refactorings.history" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/1808-user-provider/2020/8/34/refactorings.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/1808-user/2020/8/34/refactorings.history" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/1808-user/2020/8/34/refactorings.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/1808-user/2020/8/35/refactorings.history" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/1808-user/2020/8/35/refactorings.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/1808-user/2020/9/36/refactorings.history" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/1808-user/2020/9/36/refactorings.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/1808-user/2020/9/37/refactorings.history" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/1808-user/2020/9/37/refactorings.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/1808-user/2020/9/39/refactorings.history" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/1808-user/2020/9/39/refactorings.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user-provider/src/main/java/cn/jt/RunAppJtUserProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user-provider/src/main/cn/jt/RunAppJtUserProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user-provider/src/main/java/cn/jt/controller/LoginRegister.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user-provider/src/main/java/cn/jt/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user-provider/src/main/cn/jt/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user-provider/src/main/java/cn/jt/mapper/LoginRegisterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user-provider/src/main/cn/jt/mapper/LoginRegisterMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user-provider/src/main/java/cn/jt/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user-provider/src/main/cn/jt/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user-provider/src/main/java/cn/jt/pojo/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user/src/main/cn/jt/pojo/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user-provider/src/main/java/cn/jt/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user-provider/src/main/cn/jt/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user-provider/src/main/java/cn/jt/service/LoginRegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user-provider/src/main/cn/jt/service/LoginRegisterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user-provider/src/main/java/cn/jt/service/LoginRegisterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user-provider/src/main/cn/jt/service/LoginRegisterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user-provider/src/main/java/cn/jt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user-provider/src/main/cn/jt/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user-provider/src/main/java/cn/jt/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user-provider/src/main/cn/jt/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user-provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user-provider/src/main/resources/mapper/LoginRegisterMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user-provider/src/main/resources/mapper/LoginRegisterMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user-provider/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user-provider/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user-provider/target/classes/mapper/LoginRegisterMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user-provider/target/classes/mapper/LoginRegisterMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user-provider/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user-provider/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user/src/main/java/cn/jt/RunAppJtUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user/src/main/cn/jt/RunAppJtUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user/src/main/java/cn/jt/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user/src/main/java/cn/jt/controller/LoginRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user/src/main/cn/jt/controller/LoginRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user/src/main/java/cn/jt/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user/src/main/cn/jt/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user/src/main/java/cn/jt/feign/LoginRegisterFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user/src/main/cn/jt/feign/LoginRegisterFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user/src/main/java/cn/jt/feign/UserFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user/src/main/cn/jt/feign/UserFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user/src/main/java/cn/jt/pojo/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user-provider/src/main/cn/jt/pojo/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user/src/main/java/cn/jt/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user/src/main/cn/jt/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user/src/main/java/cn/jt/tool/FreemarkTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user/src/main/java/cn/jt/tool/MyInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user/src/main/cn/jt/tool/MyInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user/src/main/java/cn/jt/tool/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user/src/main/cn/jt/tool/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user/src/main/java/cn/jt/tool/WebConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user/src/main/cn/jt/tool/WebConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1808-user/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/1808-user/src/main/resources/templates/login.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="elipse_workspace" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/feichengwurao/src/main/com/xiao/feichengwurao/FeichengwuraoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1808-user/src/main/cn/jt/RunAppJtUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feichengwurao/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1808-user/src/main/cn/jt/pojo/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1808-user/src/main/cn/jt/pojo/Video.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1808-user/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1808-user-provider/src/main/cn/jt/RunAppJtUserProvider.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/feichengwurao/src/main/com/xiao/feichengwurao/FeichengwuraoApplication.java" />
+        <option value="$PROJECT_DIR$/1808-user/src/main/cn/jt/pojo/User.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\java\workspace\mvn_repo" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="D:\java\workspace\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="252" />
+    <option name="y" value="18" />
+    <option name="width" value="1400" />
+    <option name="height" value="985" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="elipse_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elipse_workspace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elipse_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elipse_workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="1808-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elipse_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600894844633" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/feichengwurao" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.RunAppEureka">
+    <configuration name="FeichengwuraoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.com.xiao.feichengwurao.FeichengwuraoApplication" />
+      <module name="elipse_workspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.main.com.xiao.feichengwurao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunAppEureka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.RunAppEureka" />
+      <module name="elipse_workspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunAppJtUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.jt.RunAppJtUser" />
+      <module name="elipse_workspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.jt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RunAppEureka" />
+        <item itemvalue="Application.RunAppJtUser" />
+        <item itemvalue="Application.FeichengwuraoApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="612d43f5-ad06-4b4e-8e83-970d18beb458" name="Default Changelist" comment="" />
+      <created>1600861547369</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600861547369</updated>
+      <workItem from="1600861551823" duration="337000" />
+      <workItem from="1600861922094" duration="37000" />
+      <workItem from="1600861984494" duration="18000" />
+      <workItem from="1600862025563" duration="219000" />
+      <workItem from="1600862302708" duration="60000" />
+      <workItem from="1600893745585" duration="1282000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1953000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="252" y="18" width="1400" height="985" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49823737" visible="true" weight="0.24328358" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50117373" side_tool="true" weight="0.25373134" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32902467" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/1808-user-provider/src/main/cn/jt/RunAppJtUserProvider.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1808-user/src/main/cn/jt/RunAppJtUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feichengwurao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1808-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1808-user/src/main/cn/jt/pojo/Video.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1808-user/src/main/cn/jt/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feichengwurao/src/main/com/xiao/feichengwurao/FeichengwuraoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>elipse_workspace</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

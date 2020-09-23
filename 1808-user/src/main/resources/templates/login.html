@@ -26,7 +26,7 @@
 				success:function(data){
 					
 					if(data.state==200){
-						if("${Session['page']}"=="")location.href="/index.html";else location.href="${page}";}else{
+						if("${Session['page']}"=="")location.href="/zhuYe.html";else location.href="${Session['page']}";}else{
 						alert("登录失败,重新输入");
 						location.href="/loginRegister/page/login.html";}}})
 	    }

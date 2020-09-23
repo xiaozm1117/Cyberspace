@@ -7,14 +7,18 @@ import javax.servlet.http.Cookie;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.http.converter.json.MappingJacksonValue;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import cn.jt.mapper.LoginRegisterMapper;
 import cn.jt.pojo.Admin;
 
-import cn.jt.service.LoginRegisterService;
 @Service
 public class LoginRegisterServiceImpl implements LoginRegisterService {
 	@Autowired
@@ -75,5 +79,6 @@ public class LoginRegisterServiceImpl implements LoginRegisterService {
 		}
 		
 	}
-
+	
+	
 }

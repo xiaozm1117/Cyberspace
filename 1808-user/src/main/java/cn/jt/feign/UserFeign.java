@@ -1,6 +1,5 @@
 package cn.jt.feign;
 
-import java.util.Date;
 import java.util.List;
 
 import org.springframework.cloud.netflix.feign.FeignClient;

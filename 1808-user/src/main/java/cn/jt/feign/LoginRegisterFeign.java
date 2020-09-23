@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import cn.jt.pojo.Admin;
-import cn.jt.pojo.User;
 import cn.jt.tool.Result;
 
 @FeignClient("jt-user-provider")

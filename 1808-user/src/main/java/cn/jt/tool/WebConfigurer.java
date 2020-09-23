@@ -29,7 +29,8 @@ public class WebConfigurer implements WebMvcConfigurer {
 	@Override
 	public void configurePathMatch(PathMatchConfigurer configurer) {
 		// TODO Auto-generated method stub
-
+		configurer.setUseSuffixPatternMatch(true)
+        .setUseTrailingSlashMatch(true);
 	}
 
 	@Override
@@ -58,7 +59,7 @@ public class WebConfigurer implements WebMvcConfigurer {
 
 	@Override
 	public void addInterceptors(InterceptorRegistry registry) {
-		registry.addInterceptor(myInterceptor).addPathPatterns("/**").excludePathPatterns("/service/loginRegister/**","/loginRegister/**","/index.html");
+		registry.addInterceptor(myInterceptor).addPathPatterns("/faBu","/doFaBu");//.excludePathPatterns("/service/loginRegister/**","/loginRegister/**","/index.html");
 		
 		/*
 		 * servletServletRegistrationBean.addUrlMappings("*.css");
@@ -74,7 +75,7 @@ public class WebConfigurer implements WebMvcConfigurer {
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		// TODO Auto-generated method stub
-
+		registry.addResourceHandler("/upload/**").addResourceLocations("file:///D:/media/"); 
 	}
 
 	@Override

@@ -13,7 +13,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import cn.jt.pojo.User;
+import cn.jt.pojo.Admin;
+
 @Component
 public class MyInterceptor implements HandlerInterceptor {
 	@Autowired
@@ -43,17 +44,21 @@ public class MyInterceptor implements HandlerInterceptor {
 			
 			if(!StringUtils.isEmpty(userJSON)){
 			
-				User user = objectMapper.readValue(userJSON, User.class);
+				Admin admin = objectMapper.readValue(userJSON, Admin.class);
 				//可以将user信息保持到request域中/session域 但是该方法无法在业务层中动态获取userId
 				//需要在业务接口中 添加userId等信息 
 				//request.setAttribute("JT_USER", user);
 				
-				 //放行请求
+				 //放行请求 
+				UserThreadLocal.set(admin);
+				request.getSession().setAttribute("admin",admin);
+				
 				return true;
 			}
 		}
 		request.getSession().setAttribute("page", request.getHeader("Referer"));
-		System.out.print(request.getSession().getAttribute("page"));
+		
+		
 		//如果程序执行到这里说明用户登陆有误,则需要重新登陆
 		response.sendRedirect("/loginRegister/page/login.html");
 		return false; //表示拦截
